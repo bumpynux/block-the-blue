@@ -1,0 +1,4 @@
+/* Hide Tweets with the blue check */
+article:has([data-testid="icon-verified"]) {
+    display: none;
+}
